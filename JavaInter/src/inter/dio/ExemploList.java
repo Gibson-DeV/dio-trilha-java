@@ -69,6 +69,8 @@ public class ExemploList {
         lista.clear();
 
         System.out.println("A lista está vazia? " + lista.isEmpty());
+
+        System.out.println(lista);
         
 
 
