@@ -71,6 +71,8 @@ public class ExemploList {
         System.out.println("A lista está vazia? " + lista.isEmpty());
 
         System.out.println(lista);
+
+
         
 
 
