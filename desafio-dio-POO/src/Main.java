@@ -39,11 +39,22 @@ public class Main {
         devGibson.setNome("Gibson");
         devGibson.inscreverBootcamo(bootCamp);
         System.out.println("Conteúdos inscritos: " + devGibson.getConteudosInscritos());
+        devGibson.progredir();
+        devGibson.progredir();
+        System.out.println("Conteúdos inscritos: " + devGibson.getConteudosInscritos());
+        System.out.println("Conteudos concluidos: " + devGibson.getConteudosConcluidos());
+        System.out.println("XP: " + devGibson.calcularTotalXp());
+
 
         Dev devJoao = new Dev();
         devJoao.setNome("Joao");
         devJoao.inscreverBootcamo(bootCamp);
         System.out.println("Conteúdos inscritos: " + devJoao.getConteudosInscritos());
+        devJoao.progredir();
+        System.out.println("Conteúdos inscritos: " + devJoao.getConteudosInscritos());
+        System.out.println("Conteudos concluidos: " + devJoao.getConteudosConcluidos());
+        System.out.println("XP: " + devJoao.calcularTotalXp());
+
 
 
 

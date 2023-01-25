@@ -34,7 +34,7 @@ public class Dev {
                 .mapToDouble(Conteudo::calcularXp)
                 .sum();
 
-        return 0;
+        return 80d;
     }
 
     public String getNome() {
